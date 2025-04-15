@@ -1,0 +1,11 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore build artifacts and logs
+dist/
+coverage/
+*.log
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
