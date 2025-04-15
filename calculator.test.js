@@ -1,4 +1,4 @@
-onst calculator = require('./calculator');
+const calculator = require('./calculator');
 // Passing Test: Addizione (2 + 2 = 4)
 test('should correctly add two numbers', () => {
   const result = calculator.addizione(2, 2);
