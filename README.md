@@ -14,4 +14,4 @@ This is a simple Node.js project that implements a basic calculator with the fol
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DarknessHunter/SSGS-calc.git
+   git clone https://github.com/NASSSSS03/SSGS-calc.git
