@@ -27,6 +27,6 @@ test('should correctly divide two numbers', () => {
   expect(calculator.divisione(-10, 2)).toBe(-5); // Edge case: negative / positive
 });
 
-test.skip('should throw an error when dividing by zero', () => {
+test('should throw an error when dividing by zero', () => {
   expect(() => calculator.divisione(10, 0)).toThrow("Impossibile dividere per zero."); // Error handling
 });
