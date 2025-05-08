@@ -7,7 +7,7 @@
     "ssgs-calc": "./start.js"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "start": "node start.js"
   },
   "keywords": ["calculator", "cli", "command-line"],
