@@ -1,5 +1,6 @@
-// app.js
+#!/usr/bin/env node
 
+// start.js
 const readline = require('readline');
 const calculator = require('./calculator');
 
@@ -68,4 +69,4 @@ async function main() {
   }
 }
 
-main();
+main(); 

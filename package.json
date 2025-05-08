@@ -1,14 +1,21 @@
 {
   "name": "ssgs-calc",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "description": "A command-line calculator application",
+  "main": "start.js",
+  "bin": {
+    "ssgs-calc": "./start.js"
   },
-  "keywords": [],
+  "scripts": {
+    "test": "jest",
+    "start": "node start.js"
+  },
+  "keywords": ["calculator", "cli", "command-line"],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "jest": "^29.7.0"
   }
